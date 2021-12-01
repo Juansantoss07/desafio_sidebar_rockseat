@@ -1,0 +1,74 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+:root {
+    --body-bg-color: #dce4e3;
+    --green: #18c29c;
+    --light-green: #8ed7c6;
+      --light-grey: #dce4e3;
+    --text-color: #084236;
+  }
+  body{
+      display: flex;
+      flex-direction: row;
+  }
+  div.menu{
+      background-color: var(--green);
+      width: 60px;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+  }
+  div.btn_menu{
+      padding: 1rem;
+      display: flex;
+      justify-content: center;
+      cursor: pointer;
+  }
+  div.btn_icons{
+      display: flex;
+      justify-content: center;
+      padding-top: 1rem;
+      margin-bottom:5rem;
+      height: 50rem;
+  }
+  div.btn_icons ul{
+      list-style: none;
+  }
+  div.btn_icons li{
+      padding: 0.3rem 0.5rem;
+      margin-bottom: 1rem;
+      cursor: pointer;
+  }
+  div.selecticon{
+      justify-content: center;
+      background-color: var(--light-grey);
+      border-radius: 10px;
+  }
+  div.btn_logout{
+      background-color: var(--light-green);
+      padding: 1rem;
+      display: flex;
+      align-items: flex-end;
+      justify-content: center;
+    }
+  div.btn_logout ul{
+      list-style: none;
+  }
+  div.btn_logout li{
+      cursor: pointer;
+  }
+  section.dashboard{
+      background-color:var(--body-bg-color);
+      margin-left: 60px;
+      height: 100vh;
+      width: 100%;
+      margin: 0;
+  }
+  section.dashboard h1{
+      padding: 1rem ;
+  }
+  
